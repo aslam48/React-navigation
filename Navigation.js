@@ -47,7 +47,7 @@ function TabsGroup({ navigation }) {
         // headerTitleAlign: "center",
         tabBarIcon: ({ focused, color, size }) => {
           let iconName;
-          if (route.name === "@betomoedano") {
+          if (route.name === "@aslam") {
             iconName = focused ? "home" : "home-outline";
           } else if (route.name === "Settings") {
             iconName = focused ? "settings" : "ios-settings-sharp";
@@ -62,7 +62,7 @@ function TabsGroup({ navigation }) {
       })}
     >
       <Tab.Screen
-        name="@betomoedano"
+        name="@aslam"
         component={TopTabsGroup}
         options={{
           headerLeft: () => (
