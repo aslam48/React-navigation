@@ -89,7 +89,6 @@ function TabsGroup({ navigation }) {
 // Drawer
 
 const Drawer = createDrawerNavigator();
-
 function DrawerGroup() {
   return (
     <Drawer.Navigator screenOptions={{ headerShown: false }}>
